@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body onload="render_Result()" style="margin-top: 20px; background-color: black;">
+ <div style="width: 100%; background-color: black;" >
+    <center>
+        <div style="text-align: center ; font-size: larger; color:black; width: 50%; background-color: aqua;">
+            <select name="" id="select_btn" style="width: 80px; height: 35px;">
+                <option value="brand">brand</option>
+                <option value="model">model</option>
+                <option value="price">price</option>
+                <option value="camera">camera</option>
+                <option value="ram">ram</option>
+                <option value="rom">rom</option>
+            </select>
+            <input type="text" id="inpsarh" / style="width: 200px; height: 30px;">
+            <button id="sarchbtn" onclick="render_Result()" style="width: 80px; height: 35px;">Enter</button>
+            <ul id="reslt"></ul>
+        
+         </div>
+    </center>
+ </div>
+    <script src="app.js"></script>
+  </body>
+</html>
